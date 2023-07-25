@@ -1,0 +1,41 @@
+{
+  "name": "Final2x-docs",
+  "version": "1.x.x",
+  "description": "docs for Final2x",
+  "main": "index.js",
+  "author": "Tohrusky",
+  "homepage": "https://github.com/Tohrusky/Final2x-docs",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress build docs && vitepress serve docs",
+    "lint": "eslint docs/.vitepress . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.22.5",
+    "@rushstack/eslint-patch": "^1.3.2",
+    "@types/node": "20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vue/compiler-core": "^3.3.4",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "eslint": "^8.44.0",
+    "eslint-plugin-vue": "^9.15.1",
+    "prettier": "^2.8.8",
+    "vitepress": "^1.0.0-beta.5"
+  },
+  "dependencies": {
+    "@img-comparison-slider/vue": "^8.0.0",
+    "@vicons/antd": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "naive-ui": "^2.34.4",
+    "sass": "^1.63.6",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.4"
+  }
+}
