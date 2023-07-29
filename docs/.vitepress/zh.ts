@@ -8,7 +8,7 @@ export const ZHconfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       light: '/logo.png',
       dark: '/logo-dark.png'
     },
-    siteTitle: 'Final2x',
+    siteTitle: 'TikTok',
     outline: 3,
     socialLinks: [{ icon: 'github', link: GithubLink }],
     footer: {

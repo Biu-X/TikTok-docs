@@ -1,2 +1,2 @@
-# Final2x
-This is a powerful tool that allows for image super-resolution to arbitrary sizes using multiple models, designed to enhance the resolution and quality of images, making them clearer and more detailed. Presently, it supports several models, such as RealCUGAN, RealESRGAN, Waifu2x, and SRMD.
+# 仿TikTok
+欢迎使用我们的仿抖音后端文档！本文档旨在帮助您了解和构建一个类似于抖音的应用程序后端。我们选择使用Go语言和Gin框架作为开发工具，以便快速、高效地构建出功能强大的后端系统。我们的目标是提供一个稳定可靠的平台，让用户能够上传、分享和交流各种视频内容。

@@ -1,10 +1,10 @@
 {
-  "name": "Final2x-docs",
+  "name": "Tiktok-docs",
   "version": "1.x.x",
-  "description": "docs for Final2x",
+  "description": "docs for Tiktok",
   "main": "index.js",
-  "author": "Tohrusky",
-  "homepage": "https://github.com/Tohrusky/Final2x-docs",
+  "author": "Biu-X",
+  "homepage": "https://github.com/Biu-X/TikTok",
   "engines": {
     "node": ">=16.0.0"
   },
@@ -30,10 +30,6 @@
     "vitepress": "^1.0.0-beta.5"
   },
   "dependencies": {
-    "@img-comparison-slider/vue": "^8.0.0",
-    "@vicons/antd": "^0.12.0",
-    "@vicons/ionicons5": "^0.12.0",
-    "naive-ui": "^2.34.4",
     "sass": "^1.63.6",
     "vue": "^3.3.4",
     "vue-tsc": "^1.8.4"
